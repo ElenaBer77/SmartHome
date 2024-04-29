@@ -1,3 +1,5 @@
+package ru.netology.smartHomeRadio;
+
 
 public class Radio {
     //public int setCurrentVolume;

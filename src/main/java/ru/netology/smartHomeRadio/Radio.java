@@ -2,19 +2,10 @@ package ru.netology.smartHomeRadio;
 
 
 public class Radio {
-    //public int setCurrentVolume;
-    // public int CurrentVolume;
-    //private int currentStation;
+
     private int currentVolume;
     public int currentStation;
 
-    //return currentStation;
-    // return ;
-    //}
-    //public int currentVolume;
-    //public int getCurrentVolume() {
-    //  return currentVolume;
-    //}
 
     public void setCurrentVolume(int newCurrentVolume) {
         if (newCurrentVolume > 100) {
@@ -54,13 +45,6 @@ public class Radio {
         }
     }
 
-    //public void setToMaxVolume() {
-    //   currentVolume = 100;
-    //}
-
-    //public void setToMinVolume() {
-    //  currentStation = 0;
-    //}
 
     public int less() {
         if (currentVolume > 0) {
@@ -72,10 +56,6 @@ public class Radio {
     public void more() {
         if (currentVolume < 100) {
             currentVolume++;
-            //} else {
-            //   currentVolume = currentVolume + 1;
-            //}
         }
-
     }
 }

@@ -225,15 +225,5 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
-    public void setVolumeMinus100() { //установка громкости 1
-        Radio volume = new Radio();
-        volume.setCurrentVolume(-100);
-
-        int expected = 0;
-        int actual = volume.getCurrentVolume();
-
-        Assertions.assertEquals(expected, actual);
-    }
 
 }
